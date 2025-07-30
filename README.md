@@ -30,9 +30,8 @@ Download the dataset (if not included) and place it in the project folder (e.g.,
 Train or fine-tune models by running scripts such as:
 python train_t5.py
 python train_gpt2.py
-Generate style transfer output:
-python inference.py --input "your informal sentence here"
-🚀 Workflow & Components
+
+## 🚀 Workflow & Components
 
 Data Preprocessing: Cleansing, tokenization, encoding categorical features if any.
 Model Training/Fine-tuning:
@@ -41,7 +40,7 @@ Pretrained T5 and GPT-2 models fine-tuned on style transfer dataset
 Baseline Models:
 Hugging Face pre-trained style-transfer models 
 Inference: Apply trained models to convert input text and visualize results.
-📊 Evaluation
+## 📊 Evaluation
 
 Performance is measured using:
 
